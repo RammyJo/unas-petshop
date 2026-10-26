@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a balloon platy">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff2fb"/>
+      <stop offset="70%" stop-color="#a8d8ef"/>
+      <stop offset="100%" stop-color="#7fc4e6"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#eef9ff"/>
+  <circle cx="200" cy="200" r="165" fill="url(#water)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(198 208)">
+    <path d="M -70 -6 C -66 -44 -30 -66 8 -64 C 48 -62 74 -36 74 -4 C 74 32 46 58 6 58 C -36 58 -74 32 -70 -6 Z" fill="#1a1a1a"/>
+    <path d="M 66 -20 C 92 -38 112 -40 120 -28 C 112 -14 96 -4 78 0 C 96 8 110 20 114 34 C 102 40 82 30 64 16 Z" fill="#1a1a1a"/>
+    <path d="M -20 -62 C -12 -80 6 -88 22 -82 C 12 -70 0 -62 -12 -58 Z" fill="#1a1a1a"/>
+    <path d="M -12 56 C -6 74 12 82 28 76 C 16 66 4 60 -4 54 Z" fill="#1a1a1a"/>
+    <path d="M -30 -30 C -10 -18 8 0 18 24" fill="none" stroke="#e5467a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M -46 -6 C -30 8 -14 26 -8 44" fill="none" stroke="#ffd200" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-46" cy="-18" r="7" fill="#ffffff"/>
+    <circle cx="-47" cy="-18" r="3.5" fill="#1a1a1a"/>
+    <path d="M -66 2 C -58 10 -50 14 -42 16" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="122" cy="112" r="6"/>
+    <circle cx="298" cy="298" r="7"/>
+  </g>
+</svg>

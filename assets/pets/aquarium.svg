@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of an aquarium setup">
+  <defs>
+    <radialGradient id="waterbg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff2fb"/>
+      <stop offset="70%" stop-color="#a8d8ef"/>
+      <stop offset="100%" stop-color="#7fc4e6"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#eef9ff"/>
+  <circle cx="200" cy="200" r="165" fill="url(#waterbg)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(200 205)">
+    <rect x="-120" y="-80" width="240" height="160" rx="10" fill="#1a1a1a"/>
+    <rect x="-108" y="-68" width="216" height="136" rx="6" fill="#bfe6f5"/>
+    <path d="M -108 40 C -80 20 -50 48 -20 34 C 10 20 40 46 70 32 C 88 24 100 34 108 30 L 108 68 L -108 68 Z" fill="#ffd200" opacity="0.85"/>
+    <path d="M -80 60 C -76 30 -84 10 -72 -12 C -66 12 -70 36 -64 60 Z" fill="#3f9e57"/>
+    <path d="M -56 60 C -54 40 -60 24 -50 6 C -44 26 -48 42 -42 60 Z" fill="#66bb7a"/>
+    <path d="M 60 60 C 56 34 64 16 54 -4 C 48 20 54 40 48 60 Z" fill="#3f9e57"/>
+    <g transform="translate(-6 -14)">
+      <path d="M -30 0 C -26 -14 -10 -20 4 -16 C 16 -12 22 -2 20 8 C 16 20 0 24 -14 20 C -24 16 -32 8 -30 0 Z" fill="#1a1a1a"/>
+      <path d="M 18 -6 C 30 -14 40 -14 44 -8 C 38 0 28 6 20 8 Z" fill="#1a1a1a"/>
+      <circle cx="-18" cy="-2" r="3" fill="#ffffff"/>
+    </g>
+    <g transform="translate(48 18) scale(0.7)">
+      <path d="M -30 0 C -26 -14 -10 -20 4 -16 C 16 -12 22 -2 20 8 C 16 20 0 24 -14 20 C -24 16 -32 8 -30 0 Z" fill="#e5467a"/>
+      <path d="M 18 -6 C 30 -14 40 -14 44 -8 C 38 0 28 6 20 8 Z" fill="#e5467a"/>
+      <circle cx="-18" cy="-2" r="3" fill="#ffffff"/>
+    </g>
+    <circle cx="-30" cy="-46" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="-22" cy="-56" r="3" fill="#ffffff" opacity="0.9"/>
+    <rect x="-124" y="-86" width="248" height="14" rx="6" fill="#1a1a1a"/>
+  </g>
+</svg>

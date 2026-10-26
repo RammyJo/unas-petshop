@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a ranchu goldfish">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff2fb"/>
+      <stop offset="70%" stop-color="#a8d8ef"/>
+      <stop offset="100%" stop-color="#7fc4e6"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#eef9ff"/>
+  <circle cx="200" cy="200" r="165" fill="url(#water)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(200 210)">
+    <path d="M -95 -8 C -88 -52 -40 -78 8 -74 C 52 -70 78 -44 88 -16 C 96 6 92 30 70 44 C 40 62 -20 64 -58 46 C -84 34 -98 14 -95 -8 Z" fill="#1a1a1a"/>
+    <path d="M 82 -22 C 104 -40 122 -44 130 -34 C 124 -22 112 -12 96 -4 Z" fill="#1a1a1a"/>
+    <path d="M 84 8 C 106 20 120 30 122 42 C 108 44 92 36 78 26 Z" fill="#1a1a1a"/>
+    <path d="M -30 -58 C -6 -48 18 -32 34 -8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M -52 -34 C -26 -22 -2 -4 14 22" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M -64 -6 C -42 6 -20 24 -8 42" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-66" cy="-16" r="8" fill="#ffffff"/>
+    <circle cx="-67" cy="-16" r="4" fill="#1a1a1a"/>
+    <path d="M -88 6 C -80 14 -72 18 -62 20" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="120" cy="110" r="6"/>
+    <circle cx="140" cy="92" r="4"/>
+    <circle cx="300" cy="300" r="7"/>
+    <circle cx="318" cy="282" r="4"/>
+  </g>
+</svg>

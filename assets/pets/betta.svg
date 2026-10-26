@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a betta fish">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff2fb"/>
+      <stop offset="70%" stop-color="#a8d8ef"/>
+      <stop offset="100%" stop-color="#7fc4e6"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#eef9ff"/>
+  <circle cx="200" cy="200" r="165" fill="url(#water)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(210 205)">
+    <path d="M -30 -40 C -10 -58 20 -58 36 -40 C 48 -26 48 -6 38 14 C 26 38 -4 46 -26 34 C -44 24 -48 -22 -30 -40 Z" fill="#1a1a1a"/>
+    <path d="M 30 -38 C 58 -66 84 -74 96 -62 C 86 -44 64 -30 42 -24 Z" fill="#1a1a1a"/>
+    <path d="M 36 8 C 66 22 84 44 86 64 C 66 62 46 48 32 32 Z" fill="#1a1a1a"/>
+    <path d="M -30 -36 C -58 -60 -84 -66 -96 -54 C -86 -36 -62 -24 -40 -20 Z" fill="#1a1a1a"/>
+    <path d="M -28 32 C -54 48 -76 56 -88 50 C -80 34 -58 24 -38 20 Z" fill="#1a1a1a"/>
+    <path d="M -4 -52 C 6 -76 26 -86 44 -80 C 30 -66 16 -56 4 -50 Z" fill="#1a1a1a"/>
+    <path d="M 2 -26 C 14 -20 24 -8 28 8" fill="none" stroke="#4aa3df" stroke-width="5" stroke-linecap="round"/>
+    <path d="M -10 -30 C -2 -12 2 8 -2 26" fill="none" stroke="#e5467a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-34" cy="-8" r="7" fill="#ffffff"/>
+    <circle cx="-35" cy="-8" r="3.5" fill="#1a1a1a"/>
+  </g>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="120" cy="116" r="6"/>
+    <circle cx="300" cy="296" r="7"/>
+  </g>
+</svg>

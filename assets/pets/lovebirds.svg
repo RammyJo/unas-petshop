@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a pair of African lovebirds">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#eaf7e6"/>
+      <stop offset="70%" stop-color="#bfe6c8"/>
+      <stop offset="100%" stop-color="#9dd8ab"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#f2fbef"/>
+  <circle cx="200" cy="200" r="165" fill="url(#sky)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 60 300 C 140 288 260 288 340 300" fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round"/>
+  <g transform="translate(150 210)">
+    <path d="M -8 -66 C 16 -70 30 -54 28 -34 C 40 -20 44 6 34 28 C 24 48 0 58 -22 52 C -30 66 -36 78 -30 88 C -48 82 -52 64 -46 46 C -54 26 -48 -2 -34 -22 C -30 -46 -22 -62 -8 -66 Z" fill="#1a1a1a"/>
+    <path d="M -8 -66 C 4 -64 12 -54 12 -42 C 2 -44 -6 -52 -8 -66 Z" fill="#e5467a"/>
+    <path d="M 12 -46 C 22 -50 30 -46 32 -38 C 24 -34 16 -36 12 -46 Z" fill="#ffd200"/>
+    <circle cx="6" cy="-44" r="4" fill="#ffffff"/>
+    <circle cx="6" cy="-44" r="2" fill="#1a1a1a"/>
+    <path d="M 26 -40 C 36 -36 40 -30 38 -24 C 32 -26 28 -30 26 -40 Z" fill="#1a1a1a"/>
+    <path d="M -20 6 C -8 14 2 26 8 40" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(252 214) scale(-1 1)">
+    <path d="M -8 -66 C 16 -70 30 -54 28 -34 C 40 -20 44 6 34 28 C 24 48 0 58 -22 52 C -30 66 -36 78 -30 88 C -48 82 -52 64 -46 46 C -54 26 -48 -2 -34 -22 C -30 -46 -22 -62 -8 -66 Z" fill="#1a1a1a"/>
+    <path d="M -8 -66 C 4 -64 12 -54 12 -42 C 2 -44 -6 -52 -8 -66 Z" fill="#4aa3df"/>
+    <path d="M 12 -46 C 22 -50 30 -46 32 -38 C 24 -34 16 -36 12 -46 Z" fill="#ffd200"/>
+    <circle cx="6" cy="-44" r="4" fill="#ffffff"/>
+    <circle cx="6" cy="-44" r="2" fill="#1a1a1a"/>
+    <path d="M 26 -40 C 36 -36 40 -30 38 -24 C 32 -26 28 -30 26 -40 Z" fill="#1a1a1a"/>
+    <path d="M -20 6 C -8 14 2 26 8 40" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="118" cy="110" r="6"/>
+    <circle cx="300" cy="128" r="5"/>
+  </g>
+</svg>

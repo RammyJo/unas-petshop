@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylised illustration of a koi fish">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#dff2fb"/>
+      <stop offset="70%" stop-color="#a8d8ef"/>
+      <stop offset="100%" stop-color="#7fc4e6"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#eef9ff"/>
+  <circle cx="200" cy="200" r="165" fill="url(#water)"/>
+  <path d="M 45 200 A 155 155 0 0 1 330 82" fill="none" stroke="#f7941d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 350 130 A 150 150 0 0 1 342 280" fill="none" stroke="#ffd200" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(196 206)">
+    <path d="M -110 4 C -100 -36 -56 -62 -8 -62 C 42 -62 80 -38 96 -8 C 104 8 102 26 90 40 C 66 64 8 70 -40 58 C -80 48 -116 30 -110 4 Z" fill="#1a1a1a"/>
+    <path d="M 92 -6 C 118 -30 140 -40 150 -30 C 142 -12 122 2 100 10 C 122 18 140 32 144 48 C 132 56 108 44 88 28 Z" fill="#1a1a1a"/>
+    <path d="M -30 -58 C -20 -78 -4 -88 12 -86 C 6 -70 -6 -58 -18 -52 Z" fill="#1a1a1a"/>
+    <path d="M -6 60 C 0 78 16 88 32 86 C 24 70 12 60 2 54 Z" fill="#1a1a1a"/>
+    <ellipse cx="-40" cy="-24" rx="26" ry="16" fill="#ffffff" transform="rotate(-14 -40 -24)"/>
+    <ellipse cx="30" cy="18" rx="22" ry="14" fill="#ffffff" transform="rotate(10 30 18)"/>
+    <path d="M -60 -46 C -36 -34 -12 -14 2 12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-84" cy="-2" r="7" fill="#ffffff"/>
+    <circle cx="-85" cy="-2" r="3.5" fill="#1a1a1a"/>
+    <path d="M -104 12 C -96 22 -86 28 -74 32" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M -100 2 C -112 8 -120 16 -124 26" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M -96 -10 C -108 -12 -118 -8 -126 0" fill="none" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="112" cy="118" r="6"/>
+    <circle cx="132" cy="98" r="4"/>
+    <circle cx="298" cy="298" r="7"/>
+  </g>
+</svg>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Una's Petshop — Ornamental Fish, Birds & Supplies in San Fernando, La Union</title>
+  <meta name="description" content="Una's Petshop in San Fernando, La Union: ranchu, koi, channa, bettas, lovebirds and aquarium supplies. Open Monday–Sunday, 9AM–6PM. Message us to check what's available today." />
+  <meta property="og:title" content="Una's Petshop — San Fernando, La Union" />
+  <meta property="og:description" content="Colorful pets, warm service. Ornamental fish, birds and aquarium supplies. Open daily 9AM–6PM." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo-original.png" />
+  <link rel="icon" type="image/png" href="assets/logo-original.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Una's Petshop home">
+        <img src="assets/logo-original.png" alt="Una's Petshop logo" class="brand-logo" />
+        <span class="brand-name">Una's <em>Petshop</em></span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#pets">Our Pets</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="tel:+639178638401">Call Now</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">San Fernando, La Union · Open Daily 9AM–6PM</p>
+          <h1>Every pet here<br /><span class="hl">came with love.</span></h1>
+          <p class="hero-sub">
+            From premium ranchu and koi to channa, bettas, lovebirds and aquarium
+            setups — Una's Petshop has been the colorful neighborhood stop for
+            pet lovers. Drop by, or message us to check who's available today.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pets">Explore Our Pets</a>
+            <a class="btn btn-ghost" href="https://m.me/100064000092100" target="_blank" rel="noopener">Message Us</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/logo-original.png" alt="Una's Petshop logo featuring a dog, cat, fish and birds" width="420" height="420" />
+        </div>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,60 C240,95 480,10 720,35 C960,60 1200,90 1440,45 L1440,90 L0,90 Z" fill="#ffffff"/>
+      </svg>
+    </section>
+
+    <!-- ============ TRUST STRIP ============ -->
+    <section class="strip">
+      <div class="container strip-inner">
+        <div class="strip-item">
+          <strong>Mon – Sun</strong><span>9:00 AM – 6:00 PM</span>
+        </div>
+        <div class="strip-item">
+          <strong>80% recommend</strong><span>from customers on Facebook</span>
+        </div>
+        <div class="strip-item">
+          <strong>Ortega St., Brgy. Ilocanos Sur</strong><span>San Fernando, La Union</span>
+        </div>
+        <div class="strip-item">
+          <strong>0917 863 8401</strong><span>call or text us</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATALOG ============ -->
+    <section class="catalog" id="pets">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Pets &amp; Products</h2>
+          <p>Stock rotates often — every listing below was featured by the shop on Facebook.
+             Tap a card for details, then message us to confirm who's available today.</p>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="chips" id="category-chips" role="tablist" aria-label="Pet categories"></div>
+          <div class="search-wrap">
+            <label class="sr-only" for="pet-search">Search pets</label>
+            <input id="pet-search" type="search" placeholder="Search ranchu, koi, betta…" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="pet-grid" id="pet-grid" aria-live="polite"></div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          <p><strong>No matches found.</strong></p>
+          <p>Try another keyword or category — or just message us and ask. If we don't have it, we'll tell you honestly.</p>
+          <a class="btn btn-primary" href="https://m.me/100064000092100" target="_blank" rel="noopener">Ask About a Pet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-art" aria-hidden="true">
+          <img src="assets/pets/ranchu.svg" alt="" width="220" height="220" />
+          <img src="assets/pets/lovebirds.svg" alt="" width="180" height="180" class="offset" />
+        </div>
+        <div class="about-text">
+          <h2>Welcome to Our Shop</h2>
+          <p>
+            Una's Petshop is a small neighborhood pet shop in San Fernando,
+            La Union. We're known for <strong>ornamental fish</strong> — ranchu,
+            koi, channa, bettas and livebearers — and we've also stocked
+            <strong>birds</strong> like parakeets and African lovebirds, plus
+            <strong>aquariums and supplies</strong>.
+          </p>
+          <p>
+            We're open <strong>every day, 9AM to 6PM</strong>. The friendliest
+            way to see our newest arrivals is our Facebook page — or simply walk
+            in and say hi. <em>Feel free to drop by, mga suki!</em>
+          </p>
+          <div class="about-actions">
+            <a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=100064000092100" target="_blank" rel="noopener">Visit Our Facebook Page</a>
+            <a class="btn btn-ghost" href="#contact">Find Us / Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Come Say Hi</h2>
+          <p>Questions about a specific pet, price, or care? We reply fastest on Messenger.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://m.me/100064000092100" target="_blank" rel="noopener">
+            <span class="cc-icon cc-messenger" aria-hidden="true"></span>
+            <strong>Facebook Messenger</strong>
+            <span>Fastest way to ask about availability</span>
+          </a>
+          <a class="contact-card" href="tel:+639178638401">
+            <span class="cc-icon cc-phone" aria-hidden="true"></span>
+            <strong>0917 863 8401</strong>
+            <span>Call or text us anytime during store hours</span>
+          </a>
+          <a class="contact-card" href="https://www.facebook.com/profile.php?id=100064000092100" target="_blank" rel="noopener">
+            <span class="cc-icon cc-facebook" aria-hidden="true"></span>
+            <strong>una's petshop</strong>
+            <span>See our newest arrivals on Facebook</span>
+          </a>
+          <div class="contact-card contact-card-static">
+            <span class="cc-icon cc-pin" aria-hidden="true"></span>
+            <strong>Ortega St., Brgy. Ilocanos Sur</strong>
+            <span>San Fernando, La Union 2500 · Mon–Sun, 9AM–6PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/logo-original.png" alt="Una's Petshop logo" class="footer-logo" />
+      <p>© <span id="year"></span> Una's Petshop · San Fernando, La Union<br />
+         Open Monday–Sunday, 9:00 AM–6:00 PM · 0917 863 8401</p>
+    </div>
+  </footer>
+
+  <!-- ============ PET DETAIL MODAL ============ -->
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close details">&times;</button>
+      <img class="modal-image" id="modal-image" src="" alt="" />
+      <div class="modal-body">
+        <p class="modal-cat" id="modal-cat"></p>
+        <h3 id="modal-title"></h3>
+        <p class="modal-breed" id="modal-breed"></p>
+        <ul class="modal-attrs" id="modal-attrs"></ul>
+        <p class="modal-status" id="modal-status"></p>
+        <p class="modal-note" id="modal-note"></p>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="modal-msg" href="#" target="_blank" rel="noopener">Ask About This Pet</a>
+          <button class="btn btn-ghost" id="modal-copy">Copy Pet Details</button>
+        </div>
+        <p class="copy-hint" id="copy-hint" hidden>Pet details copied — paste it into Messenger or text!</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
